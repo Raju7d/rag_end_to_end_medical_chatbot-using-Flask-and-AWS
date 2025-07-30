@@ -1,19 +1,19 @@
-# create a folder structure using shell script
+# Creating directory 
 mkdir -p src
-mkdir -p research
-mkdir -p data
+mkdir -p research 
 
-# create files
+# Creating files
 touch src/__init__.py
-touch src/helper.py
+touch src/helper.py 
 touch src/prompt.py
-touch .env
+touch .env 
 touch setup.py
 touch app.py
-touch research/trails.ipynb
+touch research/trials.ipynb 
 touch requirements.txt
 
-echo "Directory and files structure created successfully"
+
+echo "Directory and files created successfully!."
 
 # Run command
 # Open Gibash in vscode and run the below command
